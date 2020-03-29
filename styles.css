@@ -54,10 +54,6 @@ header {
   line-height: 0em;
 }
 
-p {
-  font-family: 'Oswald', sans-serif;
-}
-
 .content {
   display: flex; 
   flex-direction: column;
@@ -81,4 +77,9 @@ p {
 }
 .right-content {
   border-left: 1px solid black;
+}
+
+.references p{
+  text-indent: -2em;
+  margin-left: 3em;
 }
