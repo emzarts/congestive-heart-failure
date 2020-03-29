@@ -29,14 +29,29 @@ h2, h1 {
 
 header {
   text-align: center;
-  margin: 50px;
-  border-top: 2px solid black; 
-  border-bottom: 7px solid black; 
+  margin: 30px 50px 20px 50px;
 }
 
-.border-div {
-  border-bottom: 2px solid black;
-  margin-bottom: 5px;
+.hide {
+  color: transparent;
+  background-color: transparent;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.subheading {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  border-top: 4px double black;
+  border-bottom: 4px double black;
+  font-weight: normal;
+  line-height: 0em;
 }
 
 p {
