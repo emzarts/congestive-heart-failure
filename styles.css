@@ -27,6 +27,23 @@ body {
   }
 }
 
+@media only screen and (max-width: 638px) {
+  .content {
+    padding: 0px 10px 5px 10px !important;
+  }
+  header {
+    margin: 30px 10px 20px 10px !important;
+  }
+  .subheading {
+    display: block !important;
+    line-height: normal !important;
+  }
+
+  .subheading .hide {
+    display: none;
+  }
+}
+
 figcaption {
   font-style: italic;
 }
