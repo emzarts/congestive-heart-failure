@@ -11,8 +11,20 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 1.17em;
-  min-width: 918px;
   /* background-size: cover;  background-image: linear-gradient(#3d6c8e,#96333b ); */
+}
+
+@media only screen and (max-width: 918px) {
+  .section {
+    width: 100% !important;
+    border-bottom: 1px solid black;
+  }
+  .col-2 {
+    display: block !important;
+  }
+  .right-content {
+    border-left: none !important;
+  }
 }
 
 figcaption {
