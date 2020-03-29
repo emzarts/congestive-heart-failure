@@ -87,7 +87,7 @@ table .stage {
 
 .symptom img {
   height: 50px;
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
 }
 
 .symptom {
@@ -113,8 +113,12 @@ table .stage {
 }
 
 .right-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 26%;
   border-left: 1px solid black;
+  /* height: 100%; */
 }
 
 .references p{
