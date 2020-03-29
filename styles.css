@@ -71,6 +71,20 @@ header {
   padding: 0px 20px 10px 20px;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table .stage {
+  text-align: center;
+  width: 100px;
+}
+
 .symptom img {
   height: 50px;
   margin: 10px;
