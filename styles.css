@@ -52,8 +52,16 @@ body {
   }
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 figcaption {
   font-style: italic;
+  font-size: .85em;
 }
 
 h2, h1 {
