@@ -58,11 +58,6 @@ h2, h1 {
   padding: 0px 50px 5px 50px;
 }
 
-.left-content img {
-  float: left;
-  width: 150px;
-}
-
 header {
   text-align: center;
   margin: 30px 50px 20px 50px;
@@ -142,13 +137,16 @@ table .stage {
   float: right;
 }
 
-.right-content {
+.thin-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 26%;
-  border-left: 1px solid black;
   /* height: 100%; */
+}
+
+.right {
+  border-left: 1px solid black;
 }
 
 .references p{
