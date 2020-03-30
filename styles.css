@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
+
   /* border: 1px solid royalblue; */
 }
 
@@ -58,6 +60,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.center img {
+  width: 100%;
 }
 
 figcaption {
