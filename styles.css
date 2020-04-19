@@ -81,7 +81,7 @@ h2, h1 {
 .content {
   width: 100%;
   padding: 0px 50px 5px 50px;
-  columns: 4;
+  columns: 3;
 }
 
 header {
@@ -121,9 +121,9 @@ header {
 
 .symptom {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .vid {
@@ -141,12 +141,6 @@ header {
 .video iframe {
   width: 336;
   height: 195;
-}
-
-.symptoms {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .references p{
